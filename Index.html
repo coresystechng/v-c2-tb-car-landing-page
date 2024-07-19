@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercedes Benz c-series</title>
+    <link rel="stylesheet" href="Style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+
+<header>
+    <li><img class="logo" src="Images/logo.png" alt="Mercedes Benz logo" width="110px" ></li>
+    <nav class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Models</a></li>
+        <li><a href="#">Designs</a></li>
+        <li><a href="#">Exclusive</a></li>
+        <li><a href="#">Innovation</a></li>
+    </nav>
+</header>
+<section class="main swiper mySwiper">
+    <div class="wrapper swiper-wrapper">
+      <div class="slide swiper-slide">
+        <img src="images/Image-1.jpg" alt="" class="image" />
+        <div class="image-data">
+          <span class="text">Lorem ipsum dolor sit amet consectetur.</span>
+          <h2>
+            Lorem ipsum dolor sit. <br />
+            Lorem ipsum dolor sit amet.
+          </h2>
+          <a href="#" class="button">About Us</a>
+        </div>
+      </div>
+      <div class="slide swiper-slide">
+        <img src="images/Image-2.jpg" alt="" class="image" />
+        <div class="image-data">
+            <span class="text">Lorem ipsum dolor sit amet consectetur.</span>
+            <h2>
+            Lorem ipsum dolor sit. <br />
+            Lorem ipsum dolor sit amet.
+            </h2>
+          <a href="#" class="button">About Us</a>
+        </div>
+      </div>
+      <div class="slide swiper-slide">
+        <img src="images/Image-3.jpg" alt="" class="image" />
+        <div class="image-data">
+            <span class="text">Lorem ipsum dolor sit amet consectetur.</span>
+            <h2>
+            Lorem ipsum dolor sit. <br />
+            Lorem ipsum dolor sit amet.
+            </h2>
+          <a href="#" class="button">About Us</a>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next nav-btn"></div>
+    <div class="swiper-button-prev nav-btn"></div>
+    <div class="swiper-pagination"></div>
+</section>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<section class="container">
+    <div class="slider-wrapper">
+        <div class="slider">
+            <img id="slider-1" src="Images/Image-1.jpg" alt=" Mercedes benz c class exterior">
+            <img id="slider-2" src="Images/Image-2.jpg" alt="Mercedes benz c class exterior">
+            <img id="slider-3" src="Images/Image-3.jpg" alt="Mercedes benz c class interior">
+        </div>
+        <div class="slider-nav">
+        <a href="#slider-1"></a>
+        <a href="#slider-2"></a>
+        <a href="#slider-3"></a>
+        </div>   
+    </div>
+</section>
+ -->
