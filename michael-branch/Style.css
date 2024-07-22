@@ -147,23 +147,30 @@ a.button:hover {
 }
 
 /* video section */
+/* .Vid_title h3{
+  text-align: center;
+  font-size: 80px;
+}
 div.im-v{
   display: flex;
   background-color: #000000;
-
 }
 div.video{
-  /* display: inline-block; */
+  display: inline-block;
   width: 50%;
-
+  padding: 0px;
 }
 div.video video{
   width: 500px;
-  height: 581px;
+  height: 581px; 
+  width: 45%;
+  margin: 10px;
+  margin-left: 30px;
+  border-radius: 20px;
 }
 
 div.video-data{
-  /* display: inline-block; */
+  display: inline-block;
   color: white;
   display: flex;
   font-size: 40px;
@@ -172,23 +179,47 @@ div.video-data{
   justify-content: center;
   align-items: center;
   text-align: center;
-
-}
+} */
 
 /* card section */
 div.card-wrapper{
-  display: flex;
+  /* display: flex; */
+  display: inline;
 }
 div.card{
-  width: 33%;
+  display: inline-block;
+    width: 30%;
+    background-color: rgba(236, 236, 236, 0.363);
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+    padding: 50px 0px;
+}
+div.card img{
+  border-radius: 20px;
 }
 
 
 
 
-/* 
-Footer starts here 
-footer{
+
+/* Footer starts here */
+footer .footer{
+  background-color: black;
+  text-align: center;
+  padding: 30px;
+}
+footer div img{
+  width: 7%;
+}
+footer div a{
+  color: white;
+  text-decoration: none;
+}
+footer div#extra{
+  /* padding: 0px 10px; */
+}
+/* footer .footer{
   background-color: black;
   display: flex;
   flex-direction: column;
@@ -198,7 +229,7 @@ footer{
   display: block;
   align-items: center;
 }
-footer header h1{
+footer h1{
   text-align: center;
   padding: 20px;
   color: white;
@@ -226,13 +257,17 @@ a{
   color: white;
   text-decoration: none;
 }
-h3{
+.copyright{
+  background-color: grey;
   color: white;
-  text-align: center;
+  padding: 0px 100%;
 }
+.copyright p{
+  text-align: center;
+} */
 
 
- */
+
 
 
 
