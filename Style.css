@@ -46,6 +46,7 @@ li a:hover{
   transition: ease 250ms ;
 }
 
+
 .wrapper,
 .slide{
   width: 100%;
@@ -147,13 +148,13 @@ a.button:hover {
 }
 
 /* video section */
-div.im-v{
+/* div.im-v{
   display: flex;
   background-color: #000000;
 
 }
 div.video{
-  /* display: inline-block; */
+  display: inline-block;
   width: 50%;
 
 }
@@ -163,7 +164,7 @@ div.video video{
 }
 
 div.video-data{
-  /* display: inline-block; */
+  display: inline-block;
   color: white;
   display: flex;
   font-size: 40px;
@@ -173,11 +174,14 @@ div.video-data{
   align-items: center;
   text-align: center;
 
-}
+} */
 
 /* card section */
 div.card-wrapper{
   display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  background-color: white;
 }
 div.card{
   margin: 20px;
@@ -212,7 +216,6 @@ div.card:hover{
 
 
 
-<<<<<<< Updated upstream
 /* main body */
 .main_Heading h1{
   margin: 20px;
@@ -283,8 +286,6 @@ div.card:hover{
 }
 
 
-=======
->>>>>>> Stashed changes
 
 
 
