@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html,body{
+  overflow-x: hidden;
+}
 
 .logo{
   display: inline;
@@ -31,11 +34,16 @@ header{
 
 
 li a{
-  color: white;
+  color: rgb(178, 178, 178);
   text-decoration: none;
   font-size: 15px;
   padding: 50px;
   font-family: sans-serif;
+}
+li a:hover{
+  color: white;
+  font-weight: 400;
+  transition: ease 250ms ;
 }
 
 .wrapper,
@@ -50,7 +58,7 @@ li a{
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: auto;
 }
 
@@ -60,8 +68,8 @@ li a{
 }
 .image-data {
   position: absolute;
-  top: 20%;
-  left: 25%;
+  top: 15%;
+  left: 20%;
   transform: translate(-50%, -50%);
   text-align: center;
   width: 100%;
@@ -139,22 +147,42 @@ a.button:hover {
 }
 
 /* video section */
-.amg-video{
+div.im-v{
+  display: flex;
+  background-color: #000000;
+
+}
+div.video{
+  /* display: inline-block; */
+  width: 50%;
+
+}
+div.video video{
   width: 500px;
-  height: 500px;
-
+  height: 581px;
 }
 
-.video-data{
-  font-size: 50px;
+div.video-data{
+  /* display: inline-block; */
+  color: white;
+  display: flex;
+  font-size: 40px;
   font-family: monospace;
-  position: relative;
-  left: 30%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
 }
 
-.im-v{
-  background-color: grey;
+/* card section */
+div.card-wrapper{
+  display: flex;
 }
+div.card{
+  width: 33%;
+}
+
 
 
 
