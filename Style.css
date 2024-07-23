@@ -3,9 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-html,body{
+/* html,body{
   overflow-x: hidden;
-}
+} */
 
 .logo{
   display: inline;
@@ -46,7 +46,7 @@ li a:hover{
   transition: ease 250ms ;
 }
 
-
+/* 
 .wrapper,
 .slide{
   width: 100%;
@@ -61,32 +61,61 @@ li a:hover{
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: auto;
+} */
+
+
+.main {
+  height: 100vh;
+  width: 100%;
+}
+.wrapper,
+.slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.slide {
+  overflow: hidden;
+}
+.slide::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 10;
 }
 
-.image {
+
+.slide .image {
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
-.image-data {
+.slide .image-data {
   position: absolute;
   top: 15%;
   left: 20%;
   transform: translate(-50%, -50%);
   text-align: center;
   width: 100%;
-  z-index: 10;
+  z-index: 100;
 }
-span.text {
+.image-data span.text {
   font-family: monospace;
   font-size: 40px;
   font-weight: 400;
   color: white;
 }
-#text{
-  padding-top: 5px;
-  padding-right: 150px;
+p.text{
   font-size: 18px;
+  font-weight: 500;
+  font-family: monospace;
   color: white;
+  position: relative;
+  right: 4.3%;
+  padding: 10px;
+
 }
 
 a.button {
@@ -115,7 +144,6 @@ a.button:hover {
 .nav-btn:hover {
   background: rgba(255, 255, 255, 0.4);
 }
-
 .swiper-button-next {
   right: 50px;
 }
@@ -146,6 +174,7 @@ a.button:hover {
     visibility: visible;
   }
 }
+
 
 /* video section */
 /* div.im-v{
@@ -214,9 +243,9 @@ div.card:hover{
 
 
 
+/* 
 
-
-/* main body */
+main body
 .main_Heading h1{
   margin: 20px;
   text-align: center;
@@ -224,29 +253,22 @@ div.card:hover{
 }
 
 .slider-1{
-  background-color: rgba(160, 160, 160, 0.161);
-  margin: 40px;
+  background-color: rgba(235, 228, 228, 0.161);
   border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
 }
 .slider-1 #slider-1{
-  width: 38%;
-  border-radius: 15px;
-  position: relative;
-  top: 150px;
-  left: 30px;
+  width: 50%;
+  
 }
-.slider-1 h2,p{
-  /* margin-bottom: 5px; */
-  margin-left: 43%;
-  margin-right: 3%;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  line-height: 30px;
-  position: relative;
-  top: -180px;
+.slider-1 p{
+  color: black;
+  font-family: monospace;
+  width: 50%;
 }
-.slider-1 h2{
-  font-size: 29px;
-}
+
 
 .slider-2{
   background-color: rgba(160, 160, 160, 0.161);
@@ -273,7 +295,7 @@ div.card:hover{
   left: 30px;
 }
 .slider-3 h2,p{
-  /* margin-bottom: 5px; */
+  margin-bottom: 5px;
   margin-left: 43%;
   margin-right: 3%;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -283,7 +305,7 @@ div.card:hover{
 }
 .slider-3 h2{
   font-size: 29px;
-}
+} */
 
 
 
@@ -342,7 +364,7 @@ footer div img{
   transition: 0.5ss ease;
   
 }
-p{
+.footer-text{
   color: white;
   font-size: 50px;
   text-align: center;
