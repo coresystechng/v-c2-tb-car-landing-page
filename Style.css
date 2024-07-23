@@ -211,6 +211,86 @@ div.card:hover{
 
 
 
+
+<<<<<<< Updated upstream
+/* main body */
+.main_Heading h1{
+  margin: 20px;
+  text-align: center;
+  font-size: 45px;
+}
+
+.slider-1{
+  background-color: rgba(160, 160, 160, 0.161);
+  margin: 40px;
+  border-radius: 20px;
+}
+.slider-1 #slider-1{
+  width: 38%;
+  border-radius: 15px;
+  position: relative;
+  top: 150px;
+  left: 30px;
+}
+.slider-1 h2,p{
+  /* margin-bottom: 5px; */
+  margin-left: 43%;
+  margin-right: 3%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 30px;
+  position: relative;
+  top: -180px;
+}
+.slider-1 h2{
+  font-size: 29px;
+}
+
+.slider-2{
+  background-color: rgba(160, 160, 160, 0.161);
+  margin: 40px;
+  border-radius: 20px;
+}
+.slider-2 #slider-2{
+  width: 38%;
+  border-radius: 15px;
+  position: relative;
+  top: 150px;
+  left: 30px;
+}
+.slider-3{
+  background-color: rgba(160, 160, 160, 0.161);
+  margin: 40px;
+  border-radius: 20px;
+}
+.slider-3 #slider-3{
+  width: 38%;
+  border-radius: 15px;
+  position: relative;
+  top: 150px;
+  left: 30px;
+}
+.slider-3 h2,p{
+  /* margin-bottom: 5px; */
+  margin-left: 43%;
+  margin-right: 3%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 30px;
+  position: relative;
+  top: -180px;
+}
+.slider-3 h2{
+  font-size: 29px;
+}
+
+
+=======
+>>>>>>> Stashed changes
+
+
+
+
+
+
 /* Footer starts here  */
 footer{
   background-color: black;
