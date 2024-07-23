@@ -202,8 +202,6 @@ div.card{
 div.card img{
   border-radius: 5px 5px 0 0;
   color: white;
-  
-  
 }
 
 div.card:hover{
@@ -217,18 +215,14 @@ div.card:hover{
 
 
 
-/* 
-Footer starts here 
+/* Footer starts here  */
 footer{
   background-color: black;
   display: flex;
   flex-direction: column;
-  position: relative;
+  
 }
-#socials{
-  display: block;
-  align-items: center;
-}
+
 footer header h1{
   text-align: center;
   padding: 20px;
@@ -239,31 +233,45 @@ footer div{
   justify-content: center;
   align-items: center;
 }
-footer h2{
+footer div:hover{
+  cursor: pointer;
+
+}
+footer h3{
   color: white;
   text-align: center;
   margin: 40px 0;
 }
 footer div img{
-  width: 110px;
-  height: 100px;
+  width: 160px;
+  height: 150px;
 }
 #extra{
   display: flex;
   justify-content: space-evenly;
   margin: 80px 0;
 }
-a{
+#extra a{
   color: white;
   text-decoration: none;
+  color: rgb(157, 148, 148);
+  padding: 20px;
+  
 }
-h3{
+#extra a:hover{
+  cursor: pointer;
   color: white;
+  border-top: 1px white solid;
+  transition: 0.5ss ease;
+  
+}
+p{
+  color: white;
+  font-size: 50px;
   text-align: center;
 }
 
 
- */
 
 
 
