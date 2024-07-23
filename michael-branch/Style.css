@@ -10,6 +10,7 @@ html,body{
 .logo{
   display: inline;
   margin-left: 44%;
+
   padding: 20px;
   cursor: pointer;
 }
@@ -216,7 +217,6 @@ div.card:hover{
 
 
 
-<<<<<<< Updated upstream
 /* main body */
 .main_Heading h1{
   margin: 20px;
@@ -286,9 +286,6 @@ div.card:hover{
   font-size: 29px;
 }
 
-
-=======
->>>>>>> Stashed changes
 
 
 
